@@ -1,0 +1,130 @@
+/* Importation d'une police d'écriture*/
+@font-face {
+    font-family: open;
+    src: url(/font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    font-family: open;
+    width: 90%;
+    margin: center;
+    background: -webkit-linear-gradient(90deg, rgb(141, 143, 145), rgb(51, 51, 51));
+    background: linear-gradient(90deg, rgb(141, 143, 145), rgb(51, 51, 51));
+    background-image: url('https://us.123rf.com/450wm/bookybuggy/bookybuggy1703/bookybuggy170300055/74959122-ciel-bleu-clair-comme-fond-d-%C3%A9cran-fond-d-%C3%A9cran-ciel-pastel.jpg?ver=6');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    /*background-position: right bottom;*/
+    background-size: cover;
+}
+
+p{
+    text-align: justify;
+    font-family: serif;
+    font-size: 120%;
+    line-height: 120%;
+    color: dimgrey;
+}
+
+/* Liens */
+a:hover{
+    background-color: gold;
+}
+a:visited{
+    border-color: purple;
+    color: purple;
+}
+
+blockquote{
+    background-color: grey;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    border-left: firebrick solid 3px;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+}
+
+header > h1{
+    background-color: yellow;
+}
+
+.good{
+    color: green;
+    text-transform: capitalize;
+}
+.bad{
+    color: red;
+    text-transform: capitalize;
+}
+.farmer{
+    border-left: yellow solid 2px;
+}
+.neighbors{
+    border-left: green solid 2px;
+}
+
+/* Tableau */
+table {
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    width:50%;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+
+/* Liste */
+ul{
+    line-height: 3;
+}
+.up{
+    background-image: url('https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/bien.png?token=GHSAT0AAAAAACAKQ4GNGLO2X3J3Q5PSHQQAZBBWH3A');
+    padding-right: 10px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+.down{
+    background-image: url('https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/mal.png?token=GHSAT0AAAAAACAKQ4GMOJJCUKPNMPGZFJVGZBBWI4Q');
+    padding-right: 10px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+.cat{
+    background-image: url('https://raw.githubusercontent.com/becodeorg/CRL-Wilson-2/main/Assets/chat.png?token=GHSAT0AAAAAACAKQ4GN2UG7MOGSNXG7PLVKZBBWJOQ');
+    padding-right: 10px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+/* Images */
+.img1{
+    float: right;
+    margin-left: 30px;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+figure > .img2, figcaption {
+    float: left;
+    margin-right: 30px;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+figure figcaption {
+    text-align: center;
+}
+
+txt1, txt2{
+    display: flex;
+    justify-content: flex-end;
+}
+
